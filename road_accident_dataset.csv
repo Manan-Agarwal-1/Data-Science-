@@ -1,0 +1,6 @@
+import kaggle
+
+# Download dataset
+!kaggle datasets download -d xavierberge/road-accident-dataset --unzip -p "C:/Users/manan/OneDrive/Desktop/Assignment"
+
+print("Dataset downloaded successfully!")
